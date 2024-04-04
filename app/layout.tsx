@@ -9,7 +9,7 @@ const poppins = Poppins({ weight: ["100", "200", "300", "400", "500", "600", "70
 export const metadata: Metadata = {
   title: "Banner Maker",
   description: "Created By @mc_dev1",
-  metadataBase: new URL('https://bannermaker.vercel.app')
+  metadataBase: new URL('https://bannermaker-alpha.vercel.app')
 };
 
 export default function RootLayout({
