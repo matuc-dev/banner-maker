@@ -19,7 +19,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-[500px] h-[70px] border rounded-xl flex items-center justify-center gap-10 dark:bg-black bg-muted">
-          <Input value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter Your Name..." className="w-[300px] h-[40px] dark:bg-black bg-muted font-inter" />
+          <Input maxLength={11} value={name} onChange={(e) => setName(e.target.value)} placeholder="Enter Your Name..." className="w-[300px] h-[40px] dark:bg-black bg-muted font-inter" />
           <Toolbar target={ref} />
         </div>
       </div>
